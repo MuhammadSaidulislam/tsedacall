@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+body{
+    background-color: whitesmoke;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+/* navbar */
+.navbar-section{
+  height: 80px;
+}
+.navbar{
+  padding: 18px 0px;
+  background-color: #fff;
+  height: 80px;
+  box-shadow: 5px -3px 6px 4px #776d6d;
+}
+.centerNavbar{
+  margin: auto;
+}
+.navbar-brand{
+  font-size: 24px;
+  font-weight: 800px;
+  left: 20%;
+  color: #3F51B5;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar-nav li{
+   margin-left: 3px;
+}
+.navbar-nav li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222;
+}
+.navbar-nav li a:hover{
+  color: rgb(233, 22, 75);
+}
+
+@media (max-width:400px) {
+  .centered{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    margin-bottom: 100px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin: auto;
+}
+}
+#closeNav{
+  display: none;
+}
+@media (max-width:800px) {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin: auto;
+}
+}
