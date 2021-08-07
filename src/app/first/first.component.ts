@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
 import { ChartDataSets, ChartOptions } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
+import { ChartsModule } from 'ng2-charts';
+
 @Component({
   selector: 'app-first',
   templateUrl: './first.component.html',

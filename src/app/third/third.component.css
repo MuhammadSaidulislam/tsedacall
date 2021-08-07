@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+body{
+    background-color: whitesmoke;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.button-section{
+    margin-top: 80px;
+}
+.banner{
+    margin-top: 20px;
+    text-align: center;
+}
+.banner button{
+    text-align: center;
+    padding: 15px 40px;
+    color: rgb(185, 28, 224);
+    border: 2px solid rgb(167, 72, 162);
+    border-radius: 25px;
+    text-align: center;
+}
+.banner button:hover{
+    text-align: center;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgb(167, 72, 162);
+}
+
+/* excel-section */
+.excel-section{
+    margin: 80px 0px;
+    
+}
+.excel{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px 10px;
+    background-color: #107598;
+}
+.excelHeading{
+  
+    box-shadow: 0px 0px 6px 2px #000000a3;
+}
+.excelHeading h1{
+    color: #fff;
+}
+.excel button{
+    text-align: center;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+}
+.excel button:hover{
+    text-align: center;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgb(167, 72, 162);
+}
+.data-section{
+    margin: 80px 0px;
+}
+.table button{
+    border-radius: 25px;
+}

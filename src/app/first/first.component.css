@@ -7,10 +7,201 @@
     width: 100%;
     height: 100vh;
 }
+/* Assocaition */
+.association-section{
+  padding: 80px 0px;
+}
+.association{
+  text-align: center;
+}
+.association img{
+  width: 200px;
+  height: 200px;
+}
+.association h1{
+  font-size:38px;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.association h3{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+/* Donate Box */
+.chart-section{
+  padding: 80px 0px;
+}
+
+.chart-wrapper{
+  box-shadow: 2px 5px 6px 1px rgb(218, 211, 211);
+}
+
+.price{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(167, 72, 162);
+}
+
+.rsdAmt{
+  color: rgb(142, 154, 155);
+}
+
+.amountBox{
+  padding-top: 5%;
+
+  border-radius: 5px;
+}
+/* Data table */
+
+.tableBox{
+  margin-top: 20px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 2px 5px 6px 1px rgb(218, 211, 211);
+  cursor: pointer;
+}
+.centerTable{
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.search input{
+  font-size: 17px;
+}
+.searchTerm {
+  width: 100%;
+  border: 1px solid rgb(167, 72, 162);
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  box-shadow: 2px 5px 6px 1px rgb(218, 211, 211);
+  color: #000;
+  padding: 5px;
+}
+
+.searchTerm:focus{
+  color: #222;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgb(43, 16, 41);
+  background: rgb(167, 72, 162);
+  text-align: center;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.profile{
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.profile span{
+  margin-left: 10px;
+}
+.headingTet span{
+  font-size: 24px;
+  margin-left: 15px;
+  font-family: 'Otomanopee One', sans-serif;
+}
+.rightText{
+  text-align: end;
+}
+.rightText h4{
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0px;
+  color: rgb(167, 72, 162);
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.rightText h6{
+  font-size: 14px;
+  color: grey;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.footerText p{
+  font-size: 16px;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.line hr{
+  margin: 0px;
+}
+
+.search .fa .fa-search{
+  background-color: whitesmoke;
+}
+
+/* Timer */
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  padding: 80px 0px;
+  width: 100%;
+}
+.number-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.number-list .item {
+  width: 60px;
+  height: 60px;
+  background: rgb(167, 72, 162);
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.unit-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.unit-list .item {
+  width: 60px;
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgb(167, 72, 162);;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.timer-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #006741;
+  font-weight: 700;
+  font-family: sans-serif;
+}
 
 /* social icons */
 
-
+.share-campaign .d{
+  box-shadow: 2px 5px 6px 1px rgb(218, 211, 211);
+  padding: 20px;
+}
 .site-footer .social-icons a
 {
   width:50px;
@@ -18,8 +209,17 @@
   line-height:50px;
   margin-left:6px;
   margin-right:0;
-  background-color:#33353d
+  color: white;
+  /* background-color:#33353d */
 }
+
+.txt_01{
+  margin-top: 5%;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 32px;
+  color: rgb(167, 72, 162);
+}
+
 
 .social-icons
 {
@@ -55,11 +255,11 @@
   -o-transition:all .2s linear;
   transition:all .2s linear
 }
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+/* .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
   background-color:#29aafe
-}
+} */
 .social-icons.size-sm a
 {
   line-height:34px;
@@ -67,19 +267,87 @@
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
-{
+.social-icons a.facebook{
   background-color:#3b5998
 }
-.social-icons a.twitter:hover
+.social-icons a.twitter
 {
   background-color:#00aced
 }
-.social-icons a.linkedin:hover
+.social-icons a.linkedin
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.dribbble
 {
   background-color:#ea4c89
 }
+
+/* about section */
+.about-section {
+  padding: 80px 40px;
+}
+.about-section .aboutPadding {
+  padding: 0px 110px;
+}
+.about-section .aboutPadding h1 {
+  font-size: 58px;
+  color: rgb(167, 72, 162);
+  font-family: 'Otomanopee One', sans-serif;
+}
+.about-section .aboutPadding p {
+  font-size: 28px;
+  font-family: 'Baloo Chettan 2', cursive;
+  line-height: 36px;
+}
+
+
+@media (max-width: 474px){
+  .about-section .aboutPadding {
+    padding: 0px 0px;
+  }
+}
+
+/* bottom box */
+.bottom-section{
+    padding: 10px 0px;
+    background-color:  #107598;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    transition: bottom 0.3s ease-in-out;
+  }
+
+  .donate{
+    text-align: center;
+  }
+  .donate button{
+    text-align: center;
+    padding: 15px 40px;
+    /* background-color: red; */
+    color: #d8d3d6;
+    border: 2px solid #fafafa;
+    border-radius: 25px;
+  }
+  .donate button:hover{
+     background-color: #d91483; 
+    color: #fff;
+  }
+
+  .share{
+    text-align: center;
+  }
+  .share button{
+    text-align: center;
+    padding: 15px 40px;
+    /* background-color: red; */
+    color: #d8d3d6;
+    border: 2px solid #fafafa;
+    border-radius: 25px;
+  }
+  .share button:hover{
+     background-color: #d91483; 
+    color: #fff;
+  }
+  

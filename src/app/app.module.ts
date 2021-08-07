@@ -9,8 +9,11 @@ import { SecondComponent } from './second/second.component';
 import { ThirdComponent } from './third/third.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-
 import { ChartsModule } from 'ng2-charts';
+
+
+
+
 
 @NgModule({
   declarations: [
