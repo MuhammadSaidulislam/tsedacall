@@ -10,6 +10,7 @@ import { ThirdComponent } from './third/third.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ChartsModule } from 'ng2-charts';
+import { DashNavbarComponent } from './dash-navbar/dash-navbar.component';
 
 
 
@@ -22,7 +23,8 @@ import { ChartsModule } from 'ng2-charts';
     SecondComponent,
     ThirdComponent,
     NavbarComponent,
-    FooterComponent 
+    FooterComponent,
+    DashNavbarComponent 
   ],
   imports: [
     BrowserModule,
